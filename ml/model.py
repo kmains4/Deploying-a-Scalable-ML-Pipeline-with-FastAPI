@@ -61,7 +61,7 @@ def save_model(model, encoder, lb):
     joblib.dump(lb, "lb.joblib")
 
 
-def load_model():
+def load_model(path=None):
     """
     Load model and encoders.
     """
