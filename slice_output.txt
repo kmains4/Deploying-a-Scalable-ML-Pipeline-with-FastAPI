@@ -1,0 +1,10 @@
+Slice: sex = Female
+Precision: 0.655
+Recall: 0.489
+F1: 0.560
+
+Slice: sex = Male
+Precision: 0.748
+Recall: 0.622
+F1: 0.679
+
