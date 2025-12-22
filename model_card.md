@@ -3,7 +3,8 @@
 For additional information see the Model Card paper: https://arxiv.org/pdf/1810.03993.pdf
 
 ## Model Details
-This model is a binary classification model trained to predict whether an individual earns more than $50K per year based on U.S. Census data. The model was trained using scikit-learn and deployed using FastAPI.
+The model used in this project is a **Logistic Regression** classifier implemented using **scikit-learn**. The model is trained as part of a pipeline that includes preprocessing with a **ColumnTransformer** and **OneHotEncoder** for categorical features. The trained pipeline predicts whether an individual earns more than $50K per year based on U.S. Census data and is deployed using FastAPI.
+
 
 ## Intended Use
 The model is intended for educational and demonstration purposes only. It is designed to showcase how to build, evaluate, monitor, and deploy a machine learning model as part of an ML pipeline.
